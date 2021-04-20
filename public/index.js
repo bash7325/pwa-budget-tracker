@@ -152,5 +152,5 @@ document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
 
-// listen for app coming back online
-window.addEventListener("online", checkForIndexedDB);
+// listen for app to come back online
+window.addEventListener("online", checkIndexedDB);

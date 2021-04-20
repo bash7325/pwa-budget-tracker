@@ -1,4 +1,4 @@
-export function checkForIndexedDb() {
+export function checkIndexedDb() {
     if (!window.indexedDB) {
       console.log("Your browser doesn't support a stable version of IndexedDB.");
       return false;
