@@ -144,6 +144,7 @@ function sendTransaction(isAdding) {
   });
 }
 
+
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
@@ -151,6 +152,3 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
-
-// listen for app to come back online
-window.addEventListener("online", checkIndexedDB);
