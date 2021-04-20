@@ -87,7 +87,6 @@ function sendTransaction(isAdding) {
     errorEl.textContent = "";
   }
 
-  /
   let transaction = {
     name: nameEl.value,
     value: amountEl.value,
